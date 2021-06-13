@@ -12,8 +12,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.expected_conditions import presence_of_element_located as poel
 from selenium.webdriver.support.wait import WebDriverWait
 
-cgpa_uri = 'https://result.smtech.in/search.php?eid=MARCH%202021%20SEMESTER%20EXAMINATIONS%20(FIRST%20YEAR)&examType=202mar'
-grade_uri = 'https://result.smtech.in/ex25.php?eid=MARCH%202021%20SEMESTER%20EXAMINATIONS%20(FIRST%20YEAR)'
+cgpa_uri = ''
+grade_uri = ''
 join_uri = 'https://result.smtech.in/'
 fileName = grade_uri[25:29]
 errors = []
