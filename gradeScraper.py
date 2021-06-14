@@ -128,7 +128,7 @@ def drive_browser(infoDict):
                 joinString = txt[2]
                 joinString = joinString.split(":")
                 name = joinString[1].strip()
-                print(f"{name}")  # print statement here
+                # print(f"{name}")  # print statement here
                 # count += 1
             infoDict[key]['name'] = name
 
