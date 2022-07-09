@@ -92,9 +92,9 @@ def read_text_from_file(infoDict, read):
                     infoDict[regId] = infoDict.get(regId, {})
                     infoDict[regId][code] = {
                         'sub': sub,
-                        'internal': line[1],
-                        'external': line[2],
-                        'total': line[3],
+                        'int': line[1],
+                        'ext': line[2],
+                        'tot': line[3],
                         'credit': credit,
                         'grade': line[4]
                     }
